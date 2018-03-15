@@ -6,8 +6,6 @@
 	<artifactId>plusminus</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-
-	<name>plusminus</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -137,7 +135,6 @@
 			<id>production</id>
 			<properties>
 				<environment>production</environment>
-				<projectVersion>1.0-SNAPSHOT</projectVersion>
 			</properties>
 			<build>
 				<finalName>tecSCORE-${project.version}.${buildNumber}</finalName>
